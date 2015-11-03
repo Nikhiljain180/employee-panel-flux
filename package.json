@@ -1,0 +1,27 @@
+{
+  "name": "flux-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "./node_modules/.bin/webpack",
+    "dev-server": "node_modules/.bin/http-server -p 3000 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BPeppard/Flux-Todolist.git"
+  },
+  "author": "Brian Peppard",
+  "dependencies": {
+    "axios": "^0.7.0",
+    "events": "^1.1.0",
+    "flux": "^2.1.1",
+    "react": "^0.14.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "webpack": "^1.12.2"
+  }
+}
