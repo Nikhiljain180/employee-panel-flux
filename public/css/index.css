@@ -1,0 +1,65 @@
+.empPanel .header .btn-default{
+    width: 100%;
+    cursor: pointer;
+}
+
+.empPanel .employeeForm .empMask,.empPanelEdit .employeeEditForm .empMask{
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color:black ;
+    opacity: 0.4;
+}
+
+.empPanel .employeeForm .employeeDetail,.empPanelEdit .employeeEditForm .employeeDetail{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    height: 430px;
+    margin-top: 56px;
+    padding: 30px;
+    z-index: 10;
+}
+
+.borderError{
+    border: 1px solid red;
+}
+
+.table-inverse {
+    color: #fff;
+    background-color: #292b2c;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.renderEmpTable .empData{
+    position: fixed;
+    top: 160px;
+    left: 10%;
+    width: 80%;
+}
+
+.renderEmpTable .empData tr{
+    color: #fff;
+    background-color: black;
+    height: 40px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+td, th {
+    padding: 0;
+    text-align: center !important;
+    width: 14%;
+}
+
+.empButton{
+    width: 5% !important;
+}

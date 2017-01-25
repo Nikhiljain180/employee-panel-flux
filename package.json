@@ -1,5 +1,5 @@
 {
-  "name": "flux-todolist",
+  "name": "flux-Employee-Management-System",
   "version": "1.0.0",
   "description": "",
   "main": "App.js",
@@ -9,10 +9,9 @@
     "dev-server": "node_modules/.bin/http-server -p 3000 public/"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BPeppard/Flux-Todolist.git"
+    "type": "git"
   },
-  "author": "Brian Peppard",
+  "author": "Nikhil Jain",
   "dependencies": {
     "axios": "^0.7.0",
     "events": "^1.1.0",

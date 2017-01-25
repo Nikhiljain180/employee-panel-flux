@@ -6,11 +6,12 @@ var EventEmitter = require('events').EventEmitter;
 var CHANGE_EVENT = 'change';
 
 var _store = {
-  list: []
+   list: JSON.parse(localStorage.getItem('store')) || []
 };
 
 var addItem = function(item) {
   _store.list.push(item);
+  localStorage.setItem('store',JSON.stringify(_store.list));
 };
 
 var removeItem = function(index) {
